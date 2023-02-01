@@ -1,0 +1,33 @@
+# Lists
+l[1,2,3.1,"satish"]
+and we have differnt types 
+l[3] then printing the 3rd number and we have in this list it starts with 0 to last not with one
+l[2:3]
+ 
+
+we have in list 
+append() to add
+extend() to add in another list
+insert() to indert at defined index
+remove() to remopve one element
+pop()    to remove an returns element
+clear()  remove all elements in list
+index()  return index
+count()  repeated element to count
+sort()   ascending order to print
+revers() to revers the list
+copy()   to copy the element
+
+
+
+
+creat a list with 10 elements 1 by 1
+a list with 5 float nos find and display sumand everag of the list
+after creating a list with 6 elements from the user extract only even nos and print 
+
+# Dictonary
+
+dictionary has countaince element with two units key and values
+and keys must be unic
+and it has item also to tell the elements 
+

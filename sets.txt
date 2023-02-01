@@ -1,0 +1,10 @@
+s.add() add element
+s.update() add to more elements
+s.discard() delete the element
+s.remove() same as discard but show the error
+s1={1,2,3}
+s2={4,5,6,1,2}
+s1|s2 union    s1.union(s2)
+    {1,2,3,4,5,6}
+s1&s2 intersect   s1.intersection(s2)
+     we have symmetric with ^ or s1.symmetric_difference(s2)

@@ -1,0 +1,3 @@
+dictionary has countaince element with two units key and values
+and keys must be unic
+and it has item also to tell the elements 
