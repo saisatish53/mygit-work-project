@@ -1,0 +1,221 @@
+#dict comprenshion d-(ninen for n in range(1,5)) print(d)
+
+Scalculating product price of 5 units
+
+old-('rice':60, 'dhaal': 120, 'oil':150} 
+new (product:price 5 for (product, price)in old.items()}
+print(new)
+
+#with checks
+
+real={'vijay':20, 'unknown' :120, 'me":150}
+ new {name:age 5 for (name, age) in real.items()}
+ print (new)
+
+
+#random discount with names for customs:
+import random
+l=("sai","satish","ram","padma","maha","eveil","devil","peace")
+l_dict={names:random.randint(1,50) for names in l}
+print(l_dict)
+
+
+
+
+ out put: {'sai': 24, 'satish': 44, 'ram': 27, 'padma': 27, 'maha': 9, 'eveil': 5, 'd
+evil': 10, 'peace': 6}
+
+
+
+#another one example:
+l1=['anu','ramu','aisu','pardu','sai']
+l2=['499','120','360','180','420']
+d={anu:ramu for(anu,ramu) in zip (l1,l2)}
+print(d)
+
+output:{'anu': '499', 'ramu': '120', 'aisu': '360', 'pardu': '180', 'sai': '420'}
+
+
+
+#another with percentage:
+ 
+sn=['akhil', 'nage', 'dora', 'satish', 'unknown']
+tm=[490,480,499,420,150]
+d={a:b for(a,b) in zip(sn, tm)}
+print(d)
+v=[]
+for i in tm:
+    p=(1/500)*100
+    v.append(p)
+    a={c:d for (c,d) in zip(sn,v)}
+    print(a)
+
+
+output:
+{'akhil': 490, 'nage': 480, 'dora': 499, 'satish': 420, 'unknown': 150}
+{'akhil': 0.2}
+{'akhil': 0.2, 'nage': 0.2}
+{'akhil': 0.2, 'nage': 0.2, 'dora': 0.2}
+{'akhil': 0.2, 'nage': 0.2, 'dora': 0.2, 'satish': 0.2}
+{'akhil': 0.2, 'nage': 0.2, 'dora': 0.2, 'satish': 0.2, 'unknown': 0.2}
+
+
+#srings:
+s="satish"
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.replace("s","n"))
+print(s.strip())
+print(s.split(','))
+print(s.center(6,'*'))
+print(s.count('s'))
+print(s.count('s',5,len(s)))
+print(s.endswith('s',0,len(s)))
+print(s.index('a',7,len(s)))
+print(s.find('a',0,len(s)))
+print(s.islower())
+print(s.isupper())
+print(s.istitle())
+print(max(s))
+print(min(s))
+print(s.startswith('hello',0,len(s)))
+print(s.rfind('a',0,len(s)))
+
+output:
+SATISH
+satish
+Satish
+natinh
+satish
+['satish']
+satish
+satish
+2
+0
+False
+1
+True
+False
+False
+t
+a
+False
+1
+
+
+#mutable and immutable
+mutable-can be changeed after creation
+immutable-cant be changed after creating 
+for immutable examples-int,float,string,bool,tuple
+for mutable-list,set,dictionary
+
+
+x=20
+print(x)
+
+id(x)
+print(x)
+
+r=200
+print(id(r))
+
+r=r+r
+print(r)
+
+print(id(r))
+
+
+l=[1,2,3,4]
+print(l)
+print(id(l))
+print(l.append(45))
+
+output:
+20
+20
+140709323144200
+400
+2229625637328
+[1, 2, 3, 4]
+2229625687488
+None
+
+
+q1 with string and char:
+str,char=input("ener your string: "),input("enter your character: ")
+if(char in str):
+    print(char,'is present in',str)
+else:
+    print(char,'is not present in',str)
+
+
+
+output:ener your string: my name is satish
+enter your character: name
+name is present in my name is satish
+
+
+q2 with parindrome are not in string:    
+str=input("enter your string: ")         
+a=str[::-1]
+if(str==a):
+    print(str,"is a palindrome")
+else:
+    print(str,"is not a palindrome")
+
+output:
+enter your string: satish
+satish is not a palindrome
+
+q3 find space in the string:
+s = input("Enter a string:")
+space = 0
+if " " in s:
+   
+   for i in s: 
+     if i == " ":
+        space = space+1
+   print(space) 
+else:
+   print("No spaces")
+
+output:Enter a string:satyish
+No spaces
+Enter a string:sa satish tv
+3
+
+
+
+
+q4 creatint vowels with string:
+l=['a','e','i','o','u']
+s=input("enter your string: ")
+count=0
+for i in s:
+    for j in l:
+        if(i==j):
+            count+=1
+            print("the vowel in the string",s,"is",count)
+if count!=0:
+        print("string contains vowel")
+else:
+        print("string does not contains vowel")
+
+
+output:the vowel in the string a is 1
+['a', 'e', 'i', 'o', 'u']
+it is vowel
+
+enter your string: b
+['a', 'e', 'i', 'o', 'u']
+its not vowel
+
+
+  
+
+
+
+
+
+
