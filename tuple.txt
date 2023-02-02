@@ -1,3 +1,0 @@
-tuple has count and index
-count has elements no.of occurrences
-index has tells the place ofnthe element
