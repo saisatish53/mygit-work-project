@@ -1,0 +1,98 @@
+a=10
+b=11
+a,b=int(input("enter the a: ")),int(input("enter the b: "))
+print(a&b)
+print(a|b)
+print(a^b)
+
+
+
+t=int(input("enter the input: "))
+if t==500:
+    print("its 500")
+else :
+    print("its not 500")
+    
+n=list(map(int,input("enter").split()))
+print(n)
+x=1
+y=0
+for i in n:
+    x=x*i
+    y=y+i
+    if x<=750:
+        print("prod",x)
+    else:
+        print("sum",y)
+
+
+ize=int(input("size:"))
+l=[]
+for i in range(size):
+     ele=int(input("element:"))
+     l.append(ele)
+print(l)
+prod=1
+for j in l:
+     prod=prod*j
+sum=0
+for k in l:
+     sum=sum+k
+
+if(prod<750):
+     print("prod=",prod)
+else:
+     print("sum=", sum)
+
+
+number=[elements for elements in "great afternoon"]
+print(number)
+
+
+i=2  
+while i<=20 :
+    if i%2==0:
+        print(i)
+    i=i+1
+
+l1=[a for a in range(100,201,20)]
+print(l1)
+
+
+
+t=3
+if t>26:
+    print("yes")
+else:
+    print("no")
+
+t=22
+if t>26:
+    print("yes")
+elif t==26:
+    print("its equal")
+elif t<26:
+    print("its less")
+
+
+t=25
+if t>26:
+    print("yes")
+elif t==26:
+    print("it is equal")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

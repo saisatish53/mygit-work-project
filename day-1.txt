@@ -1,0 +1,102 @@
+size=int(input("size :"))
+l=[]
+for i in range(size):
+    ele=int(input("element :"))
+    l.append(ele)
+print(l)
+for j in l:
+    if(j%2==0):
+        print(j)
+
+
+print("_",'_','_',)
+print("\   /")
+print(" \ /")
+print("  v ")
+
+
+s.add() add element
+s.update() add to more elements
+s.discard() delete the element
+s.remove() same as discard but show the error
+s1={1,2,3}
+s2={4,5,6,1,2}
+s1|s2 union    s1.union(s2)
+    {1,2,3,4,5,6}
+s1&s2 intersect   s1.intersection(s2)
+     we have symmetric with ^ or s1.symmetric_difference(s2)
+
+'''s={1}
+type(s)
+s.add(2)
+print(s)
+s.discard(2)
+print(s)
+s.update({1,4})
+print(s)
+
+a={1,2,3}
+s1={1,2,3,4}
+s1.issuperset(a)
+print(a)'''
+
+s1={1,2,3,4,5,6}
+s2={1,2,5,6,8,9}
+print(s1^s2)
+
+
+
+for i in range(1,11):
+    print(i)
+
+
+
+dictionary has countaince element with two units key and values
+and keys must be unic
+and it has item also to tell the elements 
+
+
+
+
+
+# Lists
+l[1,2,3.1,"satish"]
+and we have differnt types 
+l[3] then printing the 3rd number and we have in this list it starts with 0 to last not with one
+l[2:3]
+ 
+
+we have in list 
+append() to add
+extend() to add in another list
+insert() to indert at defined index
+remove() to remopve one element
+pop()    to remove an returns element
+clear()  remove all elements in list
+index()  return index
+count()  repeated element to count
+sort()   ascending order to print
+revers() to revers the list
+copy()   to copy the element
+
+
+
+
+creat a list with 10 elements 1 by 1
+a list with 5 float nos find and display sumand everag of the list
+after creating a list with 6 elements from the user extract only even nos and print 
+
+# Dictonary
+
+dictionary has countaince element with two units key and values
+and keys must be unic
+and it has item also to tell the elements 
+
+
+
+a=10
+b=11
+a,b=int(input("enter the a: ")),int(input("enter the b: "))
+print(a&b)
+print(a|b)
+print(a^b)

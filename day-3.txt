@@ -1,0 +1,175 @@
+l=(1,2,3,4,5,6,7,8,9,11)
+for j in l:
+    print(j)
+
+a,b,c=int(input("enter the value a:")),int(input("enter the value b:")),int(input("enter the value c: "))
+if a>b and a>c :
+    print("a is bigger")
+elif b>a and b>c:
+    print("b is bigger")
+else:
+    print("cis bigger")
+
+a=3
+while a<=30 :
+        if a%2!=0:
+            print(a)
+        a=a+1
+
+
+l=[1.2,1.3,1.4,1.5,1.6]
+sum=0
+for i in l:
+    sum=sum+i
+avg=sum/len(l)
+print(avg)
+
+
+a=int(input("enter the value a: "))
+b=int(input("enter the value b: "))
+if a>b :
+    print("a is bigger number")
+else:
+    print("b is bigger number")
+
+
+l=["hyd","vizag","chennai","vijayawada"]
+city=[]
+for n in l:
+    if "v" in n:
+        city.append(n)
+        print(city)
+
+
+d={1:"one",2:"two"}
+print(type(d))
+print(d.keys())
+print(d.values())
+print(d.items())
+
+a=int(input("enter the value: "))
+if a%11 ==0:
+    print("its divisible by 11")
+else:
+    print("its not divisible by 11")
+
+
+
+print("its",'a','good','day',end=' ')
+print("all",'is','good',sep="**",end=' ')
+print("joy")
+
+a=int(input("enter a number: "))
+if a>0 and a%2 ==0:
+    print("even-positive")
+elif a>0 and a%2 !=0:
+    print("odd-positive")
+elif a<0 and a%2 ==0:
+    print("even-negative")
+else :
+    print("odd-negative")
+
+a=0.1
+if  type(a)==float:
+    print("its a float")
+else:
+    print("its a integer")
+
+
+l[1,2,3.1,"satish"]
+and we have differnt types 
+l[3] then printing the 3rd number and we have in this list it starts with 0 to last not with one
+l[2:3]
+ 
+
+we have in list 
+append() to add
+extend() to add in another list
+insert() to indert at defined index
+remove() to remopve one element
+pop()    to remove an returns element
+clear()  remove all elements in list
+index()  return index
+count()  repeated element to count
+sort()   ascending order to print
+revers() to revers the list
+copy()   to copy the element
+
+
+
+
+creat a list with 10 elements 1 by 1
+a list with 5 float nos find and display sumand everag of the list
+after creating a list with 6 elements from the user extract only even nos and print
+
+
+#sets
+s.add() add element
+s.update() add to more elements
+s.discard() delete the element
+s.remove() same as discard but show the error
+s1={1,2,3}
+s2={4,5,6,1,2}
+s1|s2 union    s1.union(s2)
+    {1,2,3,4,5,6}
+s1&s2 intersect   s1.intersection(s2)
+     we have symmetric with ^ or s1.symmetric_difference(s2)
+# Dictonary
+tuple has count and index
+count has elements no.of occurrences
+index has tells the place ofnthe element
+
+
+n=int(input("size"))
+a=list(map(int,input("numbers").strip().split())) [:n]
+print(a)
+
+t=25
+if t>26:
+    if t==50:
+        print("yes")
+    else:
+        print("not 50")
+else:
+    print("not >26")
+
+import random
+n=random.randrange(1,50)
+guess=int(input("enter any number: "))
+while n!=guess:
+    if guess < n:
+        print("too low")
+        guess = int(input("enter number again: "))
+    elif guess > n:
+        print("too high!")
+        guess = int(input("enter number again: "))
+    else:
+        break
+    print("you guessed it right!!")
+
+
+str=input("enter your string: ")
+a=str[::-1]
+if(str==a):
+    print(str,"is a palindrome")
+else:
+    print(str,"is not a palindrome")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
