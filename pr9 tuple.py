@@ -1,5 +1,0 @@
-t=(1,2,3,4,5.4,"ice cream")
-type(t)
-print(t.count(4))
-print(t)
-print(t.index(4))
