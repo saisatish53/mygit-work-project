@@ -1,0 +1,61 @@
+'''a = 10
+try:
+    b = int(input())
+    print("Resource open ")
+    print(a/b)
+except ZeroDivisionError as e:
+    print("Cant divide by zero")
+except ValueError as e:
+    print("Invalid Input")
+except Exception as e:
+    print("Other error")
+finally:
+    print("Resource closed")'''
+
+
+'''x=10
+if x%2 == 0:
+    print("Hello world")
+    raise Exception("x should be even number")
+else:
+    print("x is even number .... Correct")'''
+
+
+
+'''class computer():
+    def config(self):
+        print("Yes")
+lenovo = computer()
+lenovo.config()
+dell = computer()
+dell.config()'''
+
+'''class Employee:
+    def __init__(self,name,id):
+        self.id = id
+        self.name = name
+    def display(self):
+        print("ID:%d\nName:%s" %(self.id,self.name))
+emp1 = Employee("Shiva",9)
+emp2 = Employee("Dhoni",7)
+emp1.display()
+emp2.display()'''
+
+
+'''class computer():
+    a = 10
+    b = 20
+    print("Class variable inside class",a)
+    def config(self):
+        c = 100
+        print("Yes")
+        print("Instant access ",self.b)
+lenovo = computer()
+print(lenovo.a)
+print(lenovo.a+lenovo.b)
+dell = computer()
+print("dell",dell.a)
+lenovo.config()'''
+
+
+
