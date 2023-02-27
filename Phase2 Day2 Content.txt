@@ -1,0 +1,40 @@
+                                                         DATA STRUCTURES
+*Helps to write efficient programs
+LINEAR-array/linked list/stack/queue/matrix
+NON-LINEAR-binary tree/heap/hash table/graph
+Linear -Storing data sequentially
+Lon-linear-No sequential style required
+
+
+l -array,linked list,stack,queue
+nl -trees,graphs,tables,sets
+***DS-Linear and non linear
+          linear-Static(fixed size) and dynamic(not fixed size)
+                    static-array 
+                   dynamic-list,stack,queue
+          non-linear -graph,tree
+
+
+            LINKED LISTS   
+ Example:Train 
+*As the name says list of items which are linked with one another is called as linked list 
+Types-Single linked list,Double linked list,Circular linked list 
+
+CREATING LINKED LIST:
+step-1:create the node 
+step-2:partition the node with two segments data and none
+step-3:add value into the blank node 
+step-4:mark the node as head
+step-5:create the next node by following the above steps
+step-6:establish link between first node and second node
+
+DISPLAYING LINKED LIST:
+Traversal is required from first node till _____ node in order to display existing linked list
+
+OPERATIONS:
+1.INSERT
+	beginning
+	end
+	position
+2.DELETE
+3.SEARCH
