@@ -1,0 +1,25 @@
+Types of trees:
+  1.Binary tree:A node can have maximum 2 children
+	*Binary tree traversal:
+		1.In order      ----> left-root-right       -->LDR
+		2.pre order   ----> root-left-right        -->DLR
+		3.post order  ---->   left-right-root      -->LRD
+		where L is left,R is right,D is data or root
+	Types of Binary tree:
+		1.Full binary tree
+		2.Degenerate or pathological tree
+		3.Skewed binary tree
+			i.Left Skewed
+			ii.Right Skewed
+		4.Complete binary tree:
+			i.Every level shold be fuull or complete
+			ii.In last level,if it is incomplete,nodes should present at extreme left side
+		5.Perfect binary tree:
+			i.All internal nodes which has two children and leaf nodes both should be at same level
+            6.Balanced tree:
+			For all the nodes , (height of left sub tree - height of right sub tree) can be 0 or 1
+		7.Binary Search Tree:
+			i.All the left side elements should be lesser than its parent
+			ii.All the right side elements should be greater than its parent
+
+			

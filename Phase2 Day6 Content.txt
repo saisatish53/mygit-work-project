@@ -1,0 +1,21 @@
+                          *GRAPHS*           
+Adjacency:Connection should be there
+Path:There should be a route
+Types of Graphs:
+	1.Undirected graph
+	2.Directed graph
+	3.Weigh graph
+Representation of graphs:
+	1.List of edges
+	2.Adjacent List
+	3.Adjacent Matrix
+
+*BFS: In Breadth First Search, visit a node and then move on to all adjacent vertices whereas in 
+      DFS(Depth First Search),after visiting a node, select one adjacent vertex and explore it completely move on 
+	with other vertices or vertex.
+*DIJKSTRA ALGORITHM:
+1.It comes under greedy method where solution for the given problem
+  will be figured out stage by stage
+2.Dijkstra algo helps you to find out shortest path or distance from one vertex
+  to all the other vertices
+Drawback: If weight of any edge is a negative number,Dijkstra wont work for that
